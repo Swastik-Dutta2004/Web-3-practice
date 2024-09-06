@@ -1,0 +1,103 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "_accupant",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "_value",
+						"type": "uint256"
+					}
+				],
+				"name": "occupy",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "book",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "currentstatus",
+				"outputs": [
+					{
+						"internalType": "enum HotelRoom.status",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address payable",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/hotelRoom.sol": "HotelRoom"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/hotelRoom.sol": {
+			"keccak256": "0x5f9441a9dec23c39037af1ea26b53bb2ca4ad20bc5669b91756ea393952a840a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://777f6f7148c5a27f745409ada80a4c5c2dcd11f34189a2c612583e0b4b9cbda7",
+				"dweb:/ipfs/QmYBkuz6Da9XkJ5ondCJ3dFifnwmuABed9abd4S5kp5xPn"
+			]
+		}
+	},
+	"version": 1
+}
